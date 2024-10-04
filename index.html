@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol Club Barcelona</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #A50044;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header img {
+            width: 100px;
+            height: auto;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #004D98;
+            padding: 10px;
+        }
+        
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            margin: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #A50044;
+        }
+
+        h2 {
+            color: #004D98;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #A50044;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        /* Estilo del formulario */
+        #personalizar-camiseta {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        #personalizar-camiseta h2 {
+            color: #A50044;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #personalizar-camiseta p {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form label {
+            font-weight: bold;
+            color: #004D98;
+            margin-bottom: 5px;
+        }
+
+        form input[type="text"],
+        form input[type="number"],
+        form input[type="email"],
+        form input[type="tel"],
+        form select,
+        form textarea {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        form input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        form input[type="submit"] {
+            background-color: #A50044;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #004D98;
+        }
+
+        form input::placeholder {
+            font-style: italic;
+        }
+
+        .mensaje-container {
+            background-color: rgba(0, 0, 0, 0.8); /* Fondo negro translúcido */
+            padding: 30px;
+            border-radius: 10px; /* Esquinas redondeadas */
+            max-width: 400px;
+            margin: 20px auto; /* Centrado vertical y horizontal */
+            color: white;
+            text-align: center;
+        }
+
+        .mensaje-container h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png" alt="Escudo FC Barcelona">
+        <h1>Fútbol Club Barcelona</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#historia">Historia</a>
+        <a href="#jugadores">Jugadores</a>
+        <a href="#titulos">Títulos</a>
+        <a href="#estadio">Estadio</a>
+        <a href="#lamasia">La Masía</a>
+        <a href="#personalizar-camiseta">Personaliza tu camiseta</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="content">
+        <section id="inicio">
+            <h2>Bienvenido al FC Barcelona</h2>
+            <p>El Fútbol Club Barcelona, conocido popularmente como Barcelona o Barça, es uno de los clubes de fútbol más grandes del mundo. Fundado en 1899, el Barça ha sido sinónimo de éxito, con un estilo de juego único que ha cautivado a millones de seguidores en todo el mundo. El lema del club "Més que un club" refleja su profundo vínculo con la ciudad de Barcelona y su papel en la sociedad catalana.</p>
+            <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Camp_Nou_aerial_%28cropped%29.jpg" alt="Camp Nou" width="800">
+            </div>
+        </section>
+
+        <section id="historia">
+            <h2>Historia</h2>
+            <p>Fundado en 1899 por Joan Gamper, el FC Barcelona ha crecido hasta convertirse en una de las potencias del fútbol mundial. A lo largo de su historia, ha sido un símbolo del orgullo catalán y ha sido testigo de numerosos momentos históricos, incluyendo la "época dorada" bajo la dirección de Pep Guardiola, donde el club ganó múltiples títulos, destacando la UEFA Champions League y La Liga.</p>
+            <div class="image-container">
+                <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/04/24/15877518242911.jpg" alt="Celebración de títulos del Barça">
+            </div>
+        </section>
+
+        <section id="jugadores">
+            <h2>Jugadores</h2>
+            <p>El FC Barcelona ha sido el hogar de muchos de los mejores futbolistas del mundo. Desde figuras legendarias como Johan Cruyff y Diego Maradona, hasta los recientes iconos como Lionel Messi, Xavi Hernández y Andrés Iniesta. El club también sigue formando a jóvenes talentos a través de su academia, La Masía.</p>
+            <div class="image-container">
+                <img src="https://editorial.uefa.com/resources/025f-0fe468a59fd6-56d8205c0789-1000/format/wide1/befunky-collage.jpeg?imwidth=2048">
+            </div>
+        </section>
+
+        <section id="titulos">
+            <h2>Palmarés</h2>
+            <p>El FC Barcelona cuenta con uno de los palmarés más ricos del mundo, con 26 títulos de La Liga, 31 Copas del Rey, 5 UEFA Champions League (la sexta es inevitable), entre otros trofeos. El club ha mantenido una competitividad constante tanto en España como en Europa, siendo una de las referencias en el fútbol mundial.</p>
+            <div class="image-container">
+                <img src="https://t1.uc.ltmcdn.com/es/posts/7/3/2/cuantos_titulos_tiene_el_barcelona_54237_600.webp" alt="Trofeos del FC Barcelona">
+            </div>
+        </section>
+
+        <section id="estadio">
+            <h2>Estadio: Camp Nou</h2>
+            <p>El Camp Nou, denominado actualmente Spotify Camp Nou por motivos de patrocinio, es un recinto deportivo propiedad del Fútbol Club Barcelona, ubicado en el distrito de Les Corts de la ciudad de Barcelona, España. Se inauguró el 24 de septiembre de 1957. Con un aforo de 99 354, es el estadio con mayor capacidad de Europa y el tercero a nivel mundial. La reforma que se está llevando a cabo aumentará previsiblemente el aforo hasta los 105 000. Actualmente está cerrado debido a una remodelación del estadio.</p>
+            <div class="image-container">
+                <img src="https://estaticos-cdn.prensaiberica.es/clip/b3ffbd0b-f55d-4972-be7d-48e505c3405a_16-9-discover-aspect-ratio_default_0.webp" alt="Camp Nou">
+            </div>
+        </section>
+
+        <section id="lamasia">
+            <h2>La Masía</h2>
+            <p>La Masía es la cantera del FC Barcelona y es mundialmente conocida por producir jugadores de primer nivel, como Lionel Messi, Xavi Hernández y Andrés Iniesta. Este centro de formación no solo se enfoca en el desarrollo futbolístico, sino también en los valores personales y académicos de sus jóvenes jugadores.</p>
+            <div class="image-container">
+                <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/12/23/15771050560148.jpg" alt="La Masía">
+            </div>
+        </section>
+
+        <section id="personalizar-camiseta">
+            <h2>Adquiere tu playera personalizada </h2>
+            <p>Personaliza tu camiseta del FC Barcelona con tu nombre y número favorito.</p>
+            <form id="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+
+                <label for="talla">Talla:</label><br>
+        <select id="talla" name="talla" required>
+            <option value="">Selecciona tu talla</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select><br><br>
+                <label for="numero">Número favorito:</label>
+                <input type="number" id="numero" placeholder="Ingresa tu número favorito" required>
+                
+                <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" placeholder ="Ingresa tu correo electronico"required><br><br>
+
+        <label for="domicilio">Domicilio:</label><br>
+        <textarea id="domicilio" name="domicilio"  placeholder ="Ingresa la direccion a donde se enviara su paquete"rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Personalizar camiseta">
+            </form>
+        </section>
+
+        <section id="registro-exitoso" style="display:none;">
+            <div class="mensaje-container">
+                <h1>¡Registro Exitoso!</h1>
+                <p>Personalizacion exitosa con el nombre <strong id="nombreUsuario"></strong> .</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Fútbol Club Barcelona - Todos los derechos reservados © 2024</p>
+    </footer>
+
+    <script>
+        // Captura el formulario
+        const form = document.querySelector('form');
+
+        // Captura la sección de registro exitoso
+        const registroExitoso = document.getElementById('registro-exitoso');
+        const nombreUsuario = document.getElementById('nombreUsuario');
+
+        // Añade un evento al formulario para interceptar el envío
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Evita el envío por defecto
+
+            // Simula obtener el nombre del formulario
+            const nombre = document.getElementById('nombre').value;
+
+            // Rellena el nombre del usuario en el mensaje
+            nombreUsuario.textContent = nombre ? nombre : "Usuario desconocido";
+
+            // Muestra la sección de registro exitoso
+            registroExitoso.style.display = 'block';
+
+            // Desplazar al usuario hasta el mensaje de éxito
+            registroExitoso.scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
